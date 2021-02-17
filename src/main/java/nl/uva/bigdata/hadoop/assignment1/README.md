@@ -25,7 +25,7 @@ mvn -Dtest=nl.uva.bigdata.hadoop.assignment1.FilteringWordCountLocalTest test
 mvn -Dtest=nl.uva.bigdata.hadoop.assignment1.FilteringWordCountClusterTest test
 ```
 
-## Task 2: Aggregating measurements with MapReduce [4 + 2 points]
+## Task 3: Aggregating measurements with MapReduce [4 + 2 points]
 
 Your next task is to implement a MapReduceJob in the class [AverageTemperaturePerMonth](AverageTemperaturePerMonth.java), which aggregates sensor measurements. The input to this task are a collection of measurements, comprised of the year, month, temperature, and the quality. Your task is to compute the mean temperature per year and month for all measurements that are greater or equal to a specified quality threshold. Your job should produce a textual output with a year, a month and its corresponding mean temperature (separated by the tab character) per line.
 
