@@ -9,6 +9,6 @@ Next, please implement a distributed matrix vector multiplication via a broadcas
 
 _You can test your implementation with the following unit tests:_
 ```
-mvn -Dtest=nl.uva.bigdata.hadoop.assignment2.DenseMatrixVectorMultiplicationLocalTest test
-mvn -Dtest=nl.uva.bigdata.hadoop.assignment2.DenseMatrixVectorMultiplicationClusterTest test
+mvn -Dtest=nl.uva.bigdata.hadoop.exercise2.DenseMatrixVectorMultiplicationLocalTest test
+mvn -Dtest=nl.uva.bigdata.hadoop.exercise2.DenseMatrixVectorMultiplicationClusterTest test
 ```
